@@ -12,9 +12,12 @@ const navItems = [
     name: "Services",
     href: "/services",
     dropdown: [
-      { name: "Web Design", href: "/services/web-design" },
-      { name: "SEO", href: "/services/seo" },
-      { name: "Marketing", href: "/services/marketing" },
+      { name: "Research & Surveys", href: "/services/research" },
+      { name: "Monitoring & Evaluation", href: "/services/monitoring" },
+      { name: "Consultancy Services", href: "/services/consultancy" },
+      { name: "Financial Consultancy", href: "/services/financial" },
+      { name: "Digital Solutions", href: "/services/digital" },
+      { name: "Training & Capacity Building", href: "/services/training" },
     ],
   },
   { name: "Contact", href: "/contact" },
@@ -50,7 +53,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/">
           <Image
-  src="/famelogo.png"
+  src="/crclogo.png"
   alt="Logo"
   width={120}
   height={40}
@@ -97,7 +100,7 @@ export default function Navbar() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
-                    className="absolute top-full mt-2 bg-white shadow-lg rounded-lg p-3 min-w-[180px]"
+                    className="absolute top-full mt-2 bg-white shadow-lg rounded-lg p-3 min-w-[250px]"
                   >
                     {item.dropdown.map((sub) => (
                       <Link

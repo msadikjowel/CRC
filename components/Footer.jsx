@@ -41,20 +41,20 @@ export default function Footer() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Fame Coxs Bazar",
-            url: "https://www.famecoxs.com",
-            email: "fame.bd@gmail.com",
+            name: "CRC Cox's Bazar",
+            url: "https://www.crc-bd.com",
+            email: "contact@crc-bd.com",
             telephone: "+8801629014416",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Peskar Para",
+              streetAddress: "Motel Road",
               addressLocality: "Coxs Bazar",
               addressCountry: "BD",
             },
             sameAs: [
-              "https://facebook.com/yourpage",
-              "https://x.com/yourpage",
-              "https://instagram.com/yourpage",
+              "https://facebook.com/msadikjowel",
+              "https://x.com/msadikjowel",
+              "https://instagram.com/msadikjowel",
             ],
           }),
         }}
@@ -70,11 +70,11 @@ export default function Footer() {
         {/* Brand */}
         <motion.div variants={item}>
           <h2 className="text-2xl sm:text-3xl font-bold text-[var(--color-primary)]">
-            Fame<span className="text-white">.</span>
+            CRC<span className="text-white">.</span>
           </h2>
 
           <p className="mt-4 text-sm text-gray-300 leading-relaxed">
-            Fame is a renowned national printing and supplier company in Bangladesh.
+            We combine research excellence, technical expertise, and innovative solutions to support organizations in designing, implementing, and evaluating programs that create measurable and lasting impact across humanitarian, development, and private sectors.
           </p>
 
           <div className="flex flex-wrap gap-3 mt-5">
@@ -95,7 +95,7 @@ export default function Footer() {
             <li><Link href="#" className="hover:text-[var(--color-primary)]">Terms & Conditions</Link></li>
             <li><Link href="#" className="hover:text-[var(--color-primary)]">FAQ</Link></li>
             <li><Link href="#" className="hover:text-[var(--color-primary)]">News & Insights</Link></li>
-            <li><Link href="#" className="hover:text-[var(--color-primary)]">Refund Policy</Link></li>
+            
             <li><Link href="#" className="hover:text-[var(--color-primary)]">Team</Link></li>
           </ul>
         </motion.nav>
@@ -110,14 +110,14 @@ export default function Footer() {
             <p>
               <span className="text-white font-medium">Address:</span>
               <br />
-              Peskar Para, Coxs Bazar, Bangladesh
+              Motel Road, Coxs Bazar, Bangladesh
             </p>
 
             <p>
               <span className="text-white font-medium">Email:</span>
               <br />
-              <a href="mailto:fame.bd@gmail.com" className="hover:text-[var(--color-primary)]">
-                fame.bd@gmail.com
+              <a href="mailto:contact@crc-bd.com" className="hover:text-[var(--color-primary)]">
+                contact@crc-bd.com
               </a>
             </p>
 
@@ -125,7 +125,7 @@ export default function Footer() {
               <span className="text-white font-medium">Phone:</span>
               <br />
               <a href="tel:+8801629014416" className="hover:text-[var(--color-primary)]">
-                +880 1629 014416
+                +880 1000 000000
               </a>
             </p>
           </address>
@@ -184,7 +184,7 @@ export default function Footer() {
 
           <div className="flex gap-4 mt-2 sm:mt-0">
             <Link href="#" className="hover:text-[var(--color-primary)]">About</Link>
-            <Link href="#" className="hover:text-[var(--color-primary)]">Pricing</Link>
+            <Link href="#" className="hover:text-[var(--color-primary)]">News</Link>
             <Link href="#" className="hover:text-[var(--color-primary)]">Contact</Link>
           </div>
         </div>

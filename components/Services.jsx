@@ -1,89 +1,93 @@
 "use client";
 
 import Image from "next/image";
-import image1 from "../public/printing.webp";
+import research from "../public/services/ResearchNsurveys.jpg";
+import monitoring from "../public/services/monitoring.jpg";
+import consultancy from "../public/services/Consultancy.webp";
+import financial from "../public/services/Financial.jpg";
+import digital from "../public/services/digital.png";
+import training from "../public/services/capacity.avif";
 import MotionWrapper from "./MotionWrapper";
 import {
-  Printer,
-  PenTool,
-  Package,
-  Megaphone,
-  BarChart3,
-  Handshake
+  Search,
+  ClipboardCheck,
+  BriefcaseBusiness,
+  Calculator,
+  MonitorCog,
+  GraduationCap
 } from "lucide-react";
 
 const iconMap = {
-  Printer,
-  PenTool,
-  Package,
-  Megaphone,
-  BarChart3,
-  Handshake
+  Search,
+  ClipboardCheck,
+  BriefcaseBusiness,
+  Calculator,
+  MonitorCog,
+  GraduationCap
 };
 
 export default function Services() {
   const servicesData = [
     {
-      id: 1,
-      image: image1,
-      icon: "Printer",
-      title: "Printing Service",
-      description:
-        "High quality printing solutions for businesses and individuals.",
-      details:
-        "Offset and digital printing with premium materials for sharp and durable output.",
-      link: "#"
-    },
-    {
-      id: 2,
-      image: image1,
-      icon: "PenTool",
-      title: "Design Service",
-      description: "Modern creative design solutions.",
-      details:
-        "Logos, branding, and marketing visuals tailored to your identity.",
-      link: "#"
-    },
-    {
-      id: 3,
-      image: image1,
-      icon: "Package",
-      title: "Packaging",
-      description: "Custom product packaging.",
-      details:
-        "Premium packaging design that increases product value and appeal.",
-      link: "#"
-    },
-    {
-      id: 4,
-      image: image1,
-      icon: "Megaphone",
-      title: "Branding",
-      description: "Build a strong brand identity.",
-      details:
-        "Complete branding strategy from visuals to communication tone.",
-      link: "#"
-    },
-    {
-      id: 5,
-      image: image1,
-      icon: "BarChart3",
-      title: "Digital Marketing",
-      description: "Grow your online presence.",
-      details:
-        "SEO, ads, and social media campaigns for better reach and conversion.",
-      link: "#"
-    },
-    {
-      id: 6,
-      image: image1,
-      icon: "Handshake",
-      title: "Consulting",
-      description: "Business growth consulting.",
-      details:
-        "Strategic guidance to scale and optimize your business.",
-      link: "#"
-    }
+  id: 1,
+  image: research,
+  icon: "Search",
+  title: "Research & Surveys",
+  description: "Evidence-based research and comprehensive data collection.",
+  details:
+    "We conduct baseline and endline surveys, needs assessments, market research, feasibility studies, socio-economic assessments, and advanced data analysis to support informed decision-making.",
+  link: "#"
+},
+{
+  id: 2,
+  image: monitoring,
+  icon: "ClipboardCheck",
+  title: "Monitoring & Evaluation",
+  description: "Measuring project performance and impact with precision.",
+  details:
+    "Our monitoring and evaluation services include third-party monitoring, project evaluations, verification, quality assurance, performance tracking, and impact assessments aligned with international standards.",
+  link: "#"
+},
+{
+  id: 3,
+  image: consultancy,
+  icon: "BriefcaseBusiness",
+  title: "Consultancy Services",
+  description: "Strategic advisory for sustainable organizational growth.",
+  details:
+    "We provide expert consultancy in project design, proposal development, strategic planning, policy advisory, institutional strengthening, and organizational development for public and private sector clients.",
+  link: "#"
+},
+{
+  id: 4,
+  image: financial,
+  icon: "Calculator",
+  title: "Financial Consultancy",
+  description: "Reliable financial advisory and compliance solutions.",
+  details:
+    "Our financial experts deliver audit support, taxation, VAT consultancy, financial compliance, internal controls, risk management, and regulatory advisory services.",
+  link: "#"
+},
+{
+  id: 5,
+  image: digital,
+  icon: "MonitorCog",
+  title: "Digital Solutions",
+  description: "Innovative technology solutions for modern organizations.",
+  details:
+    "We develop management information systems (MIS), databases, dashboards, digital platforms, mobile data collection tools, and customized IT solutions to improve operational efficiency.",
+  link: "#"
+},
+{
+  id: 6,
+  image: training,
+  icon: "GraduationCap",
+  title: "Training & Capacity Building",
+  description: "Strengthening people and institutions through learning.",
+  details:
+    "We design and deliver professional training, workshops, coaching, technical facilitation, and capacity-building programs that enhance organizational performance and long-term sustainability.",
+  link: "#"
+},
   ];
 
   return (
@@ -98,12 +102,11 @@ export default function Services() {
       {/* heading */}
       <div className="text-center max-w-3xl mx-auto px-6 mb-16 relative">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-          The Services We Provide
+          Expertise That Drives Impact
         </h2>
 
         <p className="mt-4 text-gray-600 text-base md:text-lg">
-          We deliver professional creative, digital, and business solutions
-          tailored to help your brand grow and stand out in the market.
+          We combine research excellence, technical expertise, and innovative solutions to support organizations in designing, implementing, and evaluating programs that create measurable and lasting impact across humanitarian, development, and private sectors.
         </p>
 
         {/* underline accent */}
@@ -153,9 +156,9 @@ export default function Services() {
                   </p>
 
                   {/* details */}
-                  <p className="text-gray-500 mt-2 text-xs line-clamp-2">
+                  {/* <p className="text-gray-500 mt-2 text-xs line-clamp-2">
                     {service.details}
-                  </p>
+                  </p> */}
 
                   {/* link */}
                   <a

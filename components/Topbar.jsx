@@ -23,7 +23,7 @@ export default function TopBar() {
 
           <span className="hidden lg:flex items-center gap-1 hover:text-[var(--color-danger)] transition">
             <FaMapMarkerAlt />
-            Peskar Para, Coxs Bazar
+            Motel Road, Coxs Bazar
           </span>
 
           <a
@@ -31,15 +31,15 @@ export default function TopBar() {
             className="flex items-center gap-1 hover:text-[var(--color-danger)] transition"
           >
             <FaPhoneAlt />
-            <span className="hidden sm:inline">+88 01888-555555</span>
+            <span className="hidden sm:inline">+88 01800-000000</span>
           </a>
 
           <a
-            href="mailto:famebd@gmail.com"
+            href="mailto:contact@crc-bd.com"
             className="hidden md:flex items-center gap-1 hover:text-[var(--color-danger)] transition"
           >
             <FaEnvelope />
-            famebd@gmail.com
+            contact@crc-bd.com
           </a>
 
         </div>

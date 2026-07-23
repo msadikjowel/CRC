@@ -15,8 +15,8 @@ export default function Home() {
       <HeroSlider />
       <Services />
       {/* <ParallaxSection /> */}
-      <Stats />
-      <TestimonialsSlider />
+      {/* <Stats /> */}
+      {/* <TestimonialsSlider /> */}
       <Footer />
     </>
   );

@@ -30,8 +30,8 @@ export default function HeroSlider() {
           leading-tight
         "
         >
-          WE BRING <span className="text-[var(--color-primary)]">DESIGN</span>{" "}
-          TOGETHER WITH <span className="">TECHNOLOGY</span>
+          Evidence. <span className="text-[var(--color-primary)]">Insight.</span>{" "}
+          Impact.
         </h1>
 
         {/* Subtext */}
@@ -45,7 +45,7 @@ export default function HeroSlider() {
           text-gray-200
         "
         >
-          A quality printing and promotional product company.
+          Delivering high-quality research, consultancy, financial advisory, and digital solutions that empower organizations to make informed decisions and achieve sustainable development.
         </p>
 
         {/* Buttons */}
@@ -59,10 +59,10 @@ export default function HeroSlider() {
         "
         >
           <button className="btn btn-primary w-full sm:w-auto">
-            Learn More
+            Explore Services
           </button>
           <button className="btn btn-danger w-full sm:w-auto">
-            How it works
+            Contact Us
           </button>
         </div>
       </motion.div>
