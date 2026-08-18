@@ -3,13 +3,27 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #f4a300;
+  /* --color-primary: #f4a300;
   --color-primary-hover: #d99200;
 
   --color-danger: #e11d48;
   --color-danger-hover: #be123c;
 
+  --color-white: #ffffff; */
+
+    --color-primary: #123B63;        /* Deep Navy */
+  --color-primary-hover: #0D2E4D;
+
+  --color-secondary: #1A8F78;      /* Teal Green */
+  --color-secondary-hover: #14735F;
+
+  --color-danger: #DC2626;
+  --color-danger-hover: #B91C1C;
+
   --color-white: #ffffff;
+
+  --color-footer: #0D2E4D;
+  
 }
 
 body {
@@ -47,7 +61,7 @@ body {
   transition: all 0.25s ease;
 }
 
-/* Yellow button */
+/* navy button */
 .btn-primary {
   background: var(--color-primary);
   color: #fff;
@@ -55,6 +69,15 @@ body {
 
 .btn-primary:hover {
   background: var(--color-primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-hover);
 }
 
 /* Red button */

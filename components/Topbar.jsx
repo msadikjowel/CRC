@@ -21,22 +21,22 @@ export default function TopBar() {
         {/* LEFT */}
         <div className="flex items-center gap-4 leading-none">
 
-          <span className="hidden lg:flex items-center gap-1 hover:text-[var(--color-danger)] transition">
+          <span className="hidden lg:flex items-center gap-1 hover:text-[var(--color-secondary)] transition">
             <FaMapMarkerAlt />
             Motel Road, Coxs Bazar
           </span>
 
           <a
-            href="tel:+8801888555555"
-            className="flex items-center gap-1 hover:text-[var(--color-danger)] transition"
+            href="tel:+8801629014416"
+            className="flex items-center gap-1 hover:text-[var(--color-secondary)] transition"
           >
             <FaPhoneAlt />
-            <span className="hidden sm:inline">+88 01800-000000</span>
+            <span className="hidden sm:inline">+88 01629 014 416</span>
           </a>
 
           <a
-            href="mailto:contact@crc-bd.com"
-            className="hidden md:flex items-center gap-1 hover:text-[var(--color-danger)] transition"
+            href="mailto:msadikjowel@gmail.com"
+            className="hidden md:flex items-center gap-1 hover:text-[var(--color-secondary)] transition"
           >
             <FaEnvelope />
             contact@crc-bd.com
@@ -48,7 +48,7 @@ export default function TopBar() {
         <div className="flex items-center gap-3 leading-none">
 
           <span className="hidden sm:flex items-center gap-1">
-            <MdArrowForward />
+            <MdArrowForward className="text-[var(--color-secondary)]"/>
             FOLLOW US -
           </span>
 
@@ -56,7 +56,7 @@ export default function TopBar() {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[var(--color-danger)] transition flex items-center"
+            className="hover:text-[var(--color-secondary)] transition flex items-center"
           >
             <FaFacebookF />
           </Link>
@@ -65,7 +65,7 @@ export default function TopBar() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[var(--color-danger)] transition flex items-center"
+            className="hover:text-[var(--color-secondary)] transition flex items-center"
           >
             <FaInstagram />
           </Link>
@@ -74,7 +74,7 @@ export default function TopBar() {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[var(--color-danger)] transition flex items-center"
+            className="hover:text-[var(--color-secondary)] transition flex items-center"
           >
             <FaTwitter />
           </Link>

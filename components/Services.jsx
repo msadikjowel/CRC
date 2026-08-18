@@ -96,7 +96,7 @@ export default function Services() {
       {/* decorative background glow */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-[var(--color-primary)] opacity-10 blur-3xl rounded-full" />
-        <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-[var(--color-danger)] opacity-10 blur-3xl rounded-full" />
+        <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-[var(--color-secondary)] opacity-10 blur-3xl rounded-full" />
       </div>
 
       {/* heading */}
@@ -111,7 +111,7 @@ export default function Services() {
 
         {/* underline accent */}
         <div className="mt-6 flex justify-center">
-          <div className="h-1 w-24 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-danger)]" />
+          <div className="h-1 w-24 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]" />
         </div>
       </div>
 
@@ -142,7 +142,7 @@ export default function Services() {
                     <div className="text-[var(--color-primary)]">
                       {Icon && <Icon size={26} />}
                     </div>
-                    <div className="h-[2px] w-10 rounded-full bg-[var(--color-danger)]" />
+                    <div className="h-[2px] w-10 rounded-full bg-[var(--color-secondary)]" />
                   </div>
 
                   {/* title */}
@@ -163,7 +163,7 @@ export default function Services() {
                   {/* link */}
                   <a
                     href={service.link}
-                    className="inline-block mt-5 font-medium text-[var(--color-primary)] hover:text-[var(--color-danger)] transition"
+                    className="inline-block mt-5 font-medium text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition"
                   >
                     See more →
                   </a>

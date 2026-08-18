@@ -9,7 +9,7 @@ export default function HeroSlider() {
       style={{ backgroundImage: `url(/hero.webp)` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/55" />
 
       {/* Content */}
       <motion.div
@@ -30,7 +30,7 @@ export default function HeroSlider() {
           leading-tight
         "
         >
-          Evidence. <span className="text-[var(--color-primary)]">Insight.</span>{" "}
+          Evidence. <span className="text-[var(--color-secondary)]">Insight.</span>{" "}
           Impact.
         </h1>
 
@@ -61,7 +61,7 @@ export default function HeroSlider() {
           <button className="btn btn-primary w-full sm:w-auto">
             Explore Services
           </button>
-          <button className="btn btn-danger w-full sm:w-auto">
+          <button className="btn btn-secondary w-full sm:w-auto">
             Contact Us
           </button>
         </div>

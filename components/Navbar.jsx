@@ -76,8 +76,8 @@ export default function Navbar() {
                   scrolled ? "text-white" : "text-[var(--color-primary)]"
                 } ${
                   isActive(item.href)
-                    ? "text-[var(--color-danger)]"
-                    : "hover:text-[var(--color-danger)]"
+                    ? "text-[var(--color-secondary)]"
+                    : "hover:text-[var(--color-secondary)]"
                 }`}
               >
                 {item.name}
@@ -86,7 +86,7 @@ export default function Navbar() {
                 {isActive(item.href) && (
                   <motion.span
                     layoutId="activeIndicator"
-                    className="absolute -bottom-1 left-0 h-[2px] w-full bg-[var(--color-danger)]"
+                    className="absolute -bottom-1 left-0 h-[2px] w-full bg-[var(--color-secondary)]"
                   />
                 )}
 
@@ -106,7 +106,7 @@ export default function Navbar() {
                       <Link
                         key={sub.name}
                         href={sub.href}
-                        className="block px-4 py-2 text-[var(--color-primary)] hover:text-[var(--color-danger)]"
+                        className="block px-4 py-2 text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors"
                       >
                         {sub.name}
                       </Link>
@@ -121,7 +121,7 @@ export default function Navbar() {
         {/* CTA */}
         <Link
           href="/get-started"
-          className="hidden md:block bg-[var(--color-primary)] text-white hover:bg-[var(--color-danger)] px-5 py-2 rounded transition"
+          className="hidden md:block bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-hover)] px-5 py-2 rounded transition"
         >
           Get Started
         </Link>
@@ -129,9 +129,9 @@ export default function Navbar() {
         {/* Mobile Toggle */}
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
-            <X className={scrolled ? "text-white" : "text-black"} />
+            <X className={scrolled ? "text-white" : "text-[var(--color-primary)]"} />
           ) : (
-            <Menu className={scrolled ? "text-white" : "text-black"} />
+            <Menu className={scrolled ? "text-white" : "text-[var(--color-primary)]"} />
           )}
         </button>
       </div>
@@ -197,7 +197,7 @@ export default function Navbar() {
                       }}
                       className={`flex justify-between w-full text-left text-lg ${
                         isActive(item.href)
-                          ? "text-[var(--color-danger)]"
+                          ? "text-[var(--color-secondary)]"
                           : "text-[var(--color-primary)]"
                       }`}
                     >
@@ -226,7 +226,7 @@ export default function Navbar() {
                               key={sub.name}
                               href={sub.href}
                               onClick={() => setIsOpen(false)}
-                              className="text-sm text-[var(--color-primary)] hover:text-[var(--color-danger)]"
+                              className="text-sm text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors"
                             >
                               {sub.name}
                             </Link>
@@ -240,7 +240,7 @@ export default function Navbar() {
                 <Link
                   href="/get-started"
                   onClick={() => setIsOpen(false)}
-                  className="bg-[var(--color-primary)] text-white px-5 py-2 rounded mt-4 hover:bg-[var(--color-danger)] transition"
+                  className="bg-[var(--color-primary)] text-white px-5 py-2 rounded mt-4 hover:bg-[var(--color-primary-hover)] transition"
                 >
                   Get Started
                 </Link>
