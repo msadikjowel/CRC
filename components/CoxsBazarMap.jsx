@@ -21,7 +21,7 @@ const customIcon = new L.DivIcon({
 export default function CoxsBazarMap() {
   return (
     <MapContainer
-      center={[21.4484829, 91.9803732]} // Cox's Bazar
+      center={[21.4418218, 91.9833468]} // Cox's Bazar
       zoom={17}
       scrollWheelZoom={true}
       className="h-full w-full"
@@ -31,7 +31,7 @@ export default function CoxsBazarMap() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      <Marker position={[21.4484829, 91.9803732]} icon={customIcon}>
+      <Marker position={[21.4418218, 91.9833468]} icon={customIcon}>
         <Popup>
           <b>Coxs Bazar</b><br />
           Famous Sea Beach 🌊

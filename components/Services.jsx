@@ -91,7 +91,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-24 bg-white relative overflow-hidden" id="services">
 
       {/* decorative background glow */}
       <div className="absolute inset-0 pointer-events-none">

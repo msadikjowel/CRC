@@ -2,6 +2,7 @@ import "./globals.css";
 import "leaflet/dist/leaflet.css";
 import Topbar from "../components/Topbar.jsx";
 import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
 
 export const metadata = {
   title: "CRC",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Topbar />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

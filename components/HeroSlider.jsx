@@ -58,9 +58,11 @@ export default function HeroSlider() {
           gap-4
         "
         >
-          <button className="btn btn-primary w-full sm:w-auto">
+          <a href="#services">
+<button className="btn btn-primary w-full sm:w-auto">
             Explore Services
           </button>
+          </a>
           <button className="btn btn-secondary w-full sm:w-auto">
             Contact Us
           </button>

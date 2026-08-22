@@ -20,6 +20,8 @@ const navItems = [
       { name: "Training & Capacity Building", href: "/services/training" },
     ],
   },
+  { name: "Our Team", href: "/our-team" },
+  { name: "About Us", href: "/about-us" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -45,8 +47,10 @@ export default function Navbar() {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? "top-0 bg-black/50 backdrop-blur-md" : "top-[42px] bg-white shadow"
-      }`}
+    scrolled
+      ? "top-0 bg-white md:bg-black/50 md:backdrop-blur-md"
+      : "top-[42px] bg-white shadow"
+  }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
         
@@ -129,9 +133,21 @@ export default function Navbar() {
         {/* Mobile Toggle */}
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
-            <X className={scrolled ? "text-white" : "text-[var(--color-primary)]"} />
+            <X
+  className={
+    scrolled
+      ? "text-[var(--color-primary)] md:text-white"
+      : "text-[var(--color-primary)]"
+  }
+/>
           ) : (
-            <Menu className={scrolled ? "text-white" : "text-[var(--color-primary)]"} />
+           <Menu
+  className={
+    scrolled
+      ? "text-[var(--color-primary)] md:text-white"
+      : "text-[var(--color-primary)]"
+  }
+/>
           )}
         </button>
       </div>

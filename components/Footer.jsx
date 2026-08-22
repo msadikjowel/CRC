@@ -157,7 +157,7 @@ export default function Footer() {
 
           {/* CTA */}
           <a
-            href="https://www.google.com/maps/place/Fame+Service/@21.4476747,91.977143,17.31z/data=!4m6!3m5!1s0x30adc9002cbf5cbf:0x5048e97839f807b3!8m2!3d21.4484829!4d91.9803732!16s%2Fg%2F11mcnd3tn0?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D"
+            href="https://www.google.com/maps/place/AIMERS+HSC+ICT+%26+ENGLISH/@21.4418218,91.9833468,674m/data=!3m2!1e3!4b1!4m6!3m5!1s0x30adc9749bf6e8bd:0xf0f0c3afe42bd345!8m2!3d21.4418168!4d91.9859217!16s%2Fg%2F11tm_6fgpw?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block px-4 py-2 text-sm rounded-md bg-[var(--color-secondary)] text-white hover:bg-[var(--color-secondary-hover)] transition"
@@ -171,7 +171,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
           <p>
-            © {new Date().getFullYear()} Fame. All rights reserved. Developed by{" "}
+            © {new Date().getFullYear()} CRC. All rights reserved. Developed by{" "}
             <a
               href="https://www.facebook.com/msadikjowel"
               target="_blank"
