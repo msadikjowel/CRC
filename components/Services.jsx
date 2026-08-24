@@ -36,7 +36,7 @@ export default function Services() {
   description: "Evidence-based research and comprehensive data collection.",
   details:
     "We conduct baseline and endline surveys, needs assessments, market research, feasibility studies, socio-economic assessments, and advanced data analysis to support informed decision-making.",
-  link: "#"
+  link: "/services/research"
 },
 {
   id: 2,
@@ -94,7 +94,7 @@ export default function Services() {
     <section className="py-24 bg-white relative overflow-hidden" id="services">
 
       {/* decorative background glow */}
-      <div className="absolute inset-0 pointer-events-none">
+      <div className=" absolute inset-0 pointer-events-none">
         <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-[var(--color-primary)] opacity-10 blur-3xl rounded-full" />
         <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-[var(--color-secondary)] opacity-10 blur-3xl rounded-full" />
       </div>
