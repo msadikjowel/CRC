@@ -56,7 +56,7 @@ export default function ResearchSurveysPage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/research/research-hero.jpeg')",
+            backgroundImage: "url('/images/research/research-field.jpeg')",
           }}
         />
 
@@ -407,7 +407,7 @@ export default function ResearchSurveysPage() {
               <div className="aspect-[4/3] rounded-3xl overflow-hidden">
 
                 <img
-                  src="/images/research/research-field.jpeg"
+                  src="/images/research/research-data.jpeg"
                   alt="CRC field research and data collection"
                   className="w-full h-full object-cover"
                 />

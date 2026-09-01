@@ -46,7 +46,7 @@ export default function Services() {
   description: "Measuring project performance and impact with precision.",
   details:
     "Our monitoring and evaluation services include third-party monitoring, project evaluations, verification, quality assurance, performance tracking, and impact assessments aligned with international standards.",
-  link: "#"
+  link: "/services/monitoring"
 },
 {
   id: 3,
@@ -56,7 +56,7 @@ export default function Services() {
   description: "Strategic advisory for sustainable organizational growth.",
   details:
     "We provide expert consultancy in project design, proposal development, strategic planning, policy advisory, institutional strengthening, and organizational development for public and private sector clients.",
-  link: "#"
+  link: "/services/consultancy"
 },
 {
   id: 4,
@@ -66,7 +66,7 @@ export default function Services() {
   description: "Reliable financial advisory and compliance solutions.",
   details:
     "Our financial experts deliver audit support, taxation, VAT consultancy, financial compliance, internal controls, risk management, and regulatory advisory services.",
-  link: "#"
+  link: "/services/financial"
 },
 {
   id: 5,
@@ -76,7 +76,7 @@ export default function Services() {
   description: "Innovative technology solutions for modern organizations.",
   details:
     "We develop management information systems (MIS), databases, dashboards, digital platforms, mobile data collection tools, and customized IT solutions to improve operational efficiency.",
-  link: "#"
+  link: "/services/digital"
 },
 {
   id: 6,
@@ -86,7 +86,7 @@ export default function Services() {
   description: "Strengthening people and institutions through learning.",
   details:
     "We design and deliver professional training, workshops, coaching, technical facilitation, and capacity-building programs that enhance organizational performance and long-term sustainability.",
-  link: "#"
+  link: "/services/training"
 },
   ];
 

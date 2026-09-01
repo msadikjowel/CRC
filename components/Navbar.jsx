@@ -124,7 +124,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <Link
-          href="/get-started"
+          href="/contact"
           className="hidden md:block bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-hover)] px-5 py-2 rounded transition"
         >
           Get Started
